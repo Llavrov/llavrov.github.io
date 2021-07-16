@@ -1,0 +1,9 @@
+export {default as Button} from './Button';
+export {default as Header} from './Header';
+export {default as Categories} from './Categories';
+export {default as SortPopup} from './SortPopup';
+export {default as AchiveBlock} from './WinnerBlock/AchiveBlock';
+export {default as Slider} from './Slider';
+export {default as Clasters} from './clasters/Clasters';
+export {default as Clasters_slider} from './clasters/Clasters_slider';
+export {default as LoadingBlock} from './WinnerBlock/LoadingBlock';

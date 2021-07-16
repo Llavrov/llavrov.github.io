@@ -1,0 +1,139 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%; /*максимальная ширина может иметь другое значение*/
+    // max-width: 1300px;
+    padding: 0;
+    margin: 0 ;
+    .block-1 {
+        display: flex;
+        flex-direction: row;
+        // margin-bottom: 300px;
+        z-index: 8;
+
+        .School93{
+            height: auto;
+            position: relative;
+            z-index: 21;
+            margin: 50px;
+            margin-left: 100px;
+            img{
+                position: absolute;
+            }
+            p {
+                margin-top: 100px;
+                text-align: left;
+                font-family: 'Nunito', sans-serif;
+                font-size: 8em;
+                position: relative;
+                width: 450px;
+            }
+        }
+    }
+
+    .block-2{
+        margin-bottom: 200px;
+    }
+
+    .touchIt{
+        text-align: center;
+        width: 150px;
+        height: 100px;
+        color: rgb(97, 165, 33);
+    }
+}
+.header {
+    position: relative;
+    z-index: 22;
+    // margin-bottom: 5%;
+}
+
+.container_h{
+    margin-left: 50px;
+    // height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    .logo, .active a{
+        display: block;
+        padding: 16px 18px;
+    }
+    .active {
+        
+        a {
+            border-radius: 8px;
+            border: 3px solid white;
+        }
+
+        text-transform: uppercase;
+        letter-spacing: .10em;
+        margin-top: 10px;
+    } 
+    .active a:hover{
+        border: 3px solid hsl(224, 90%, 45%);
+        border-radius: 8px;
+    }
+
+    .logo {
+        margin-right: 140px;
+    }
+
+    .lang {
+        border-radius: 8px;
+        border: 3px solid white;   
+        padding: 16px 18px;
+    }
+
+    .active-lang{
+        border: 3px solid hsl(224, 90%, 45%);
+        border-radius: 8px;
+    }
+
+    // .lang:hover{
+    //     border: 3px solid hsl(224, 90%, 45%);
+    //     border-radius: 8px;
+    // }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;    
+        flex-direction: row nowrap;
+
+        li{
+            margin-right: 70px;
+            font-family: 'Nunito', sans-serif;
+        }
+        li:last-child{
+            margin-right: 0px;
+        }
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+} 
+
+.button {
+    font-family: 'Nunito', sans-serif;
+    border: 3px solid white;
+    font-size: 20px;
+    width: auto;
+    background-color: white;
+    border-radius: 8px;
+    display: block;
+    padding: 16px 18px;
+}
+
+.button:hover {
+    border: 3px solid #0C43DB;
+    padding: 16px 18px;
+}
+

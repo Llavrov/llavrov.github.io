@@ -1,0 +1,53 @@
+.container_claster {
+    
+    max-width: 100%;
+    margin-left: 7%;
+    margin-right: 7%;
+    max-height: 55%(auto);
+
+    .ClasterName {
+        text-align: center;
+        margin-bottom: 5%;
+        p {
+            font-family: 'Nunito', sans-serif;
+            font-size: 8em;
+            position: relative;
+        }
+    }
+    .Image_and_text {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        
+        .ClasterImg {
+            overflow: hidden;
+            max-width: 55%;
+        }
+
+        .text_claster {
+            max-width: 35%;
+            margin-left: auto;
+            .typeClasterText{
+                margin-bottom: 5%;
+                text-align: center;
+                p {
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 2em;
+                    position: relative;
+                }
+            }
+
+            .text_to_img {
+                overflow-y: scroll;
+                max-height: 60%;
+                background: linear-gradient(to bottom, white, rgba(0, 0, 0, 0));
+                p {
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 1.5em;
+                    position: relative;
+                }
+            }
+        }
+
+    }
+}

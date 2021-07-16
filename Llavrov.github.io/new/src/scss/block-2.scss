@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container_back {
+    // width: 100%;
+    // background-color: #DBF1FF;
+    max-height: 800px;
+
+    z-index: 3;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;    
+        flex-direction: row nowrap;
+    }
+}
+
+li {
+    margin-left: 40px;
+
+    .box_project{
+        transition: .3s;
+        width: 300px;
+        margin-bottom: 50px;
+        border-radius: 0 0 20px 20px;
+        border-top: 3px solid #FF898B;
+        // box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+
+        .box_acive_img {
+            width: 100%;
+            max-height: 200px;
+            border-radius: 0 0 20px 20px;
+            overflow: hidden;
+        }
+    
+    }
+    .box_project:hover {
+        width: 350px;
+        max-height: 230px;
+        border-top: 3px solid #FF4B35;
+        transition: .3s;
+        margin-bottom: 0;
+
+        .box_acive_img {
+            max-height: 230px;
+            max-width: 350px;
+            border-radius: 0 0 20px 20px;
+        }
+    }
+}
+
+
+
+.sort {
+    .sort-popup {
+        position: absolute;
+        z-index: 4;
+        margin-left: 180px;
+        margin-top: 5px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 5px 10px rgba(0,0,0,0.22);
+
+
+        .popUpItem {
+            border-radius: 10px;
+            list-style: none;
+            padding: 16px 20px;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        .popUpItem:hover {
+            background-color: #DBF1FF;
+            font-family: 'Nunito', sans-serif;
+            color: dodgerblue;
+        }
+
+        .popUpItem-active {
+            background-color: #DBF1FF;
+            border-radius: 10px;
+            padding: 16px 20px;
+            list-style: none;
+            font-family: 'Nunito', sans-serif;
+            color: dodgerblue;
+        }
+    }
+
+    .sort-label {
+        margin-left: 50px;
+        font-size: large;
+        font-family: 'Nunito', sans-serif;
+        span {
+            color: dodgerblue;
+        }
+        .rotated {
+            transform: rotate(180deg);
+        }
+    }
+}
