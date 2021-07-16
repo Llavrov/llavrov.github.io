@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 export const fetchWinners = () => (dispatch) => {
-    axios.get('http://localhost:3000/achievements.json').then(({ data }) => {
+    axios.get('https://llavrov.github.io/achievements.json').then(({ data }) => {
         dispatch(setWinners(data.achievements));
         });
 };
