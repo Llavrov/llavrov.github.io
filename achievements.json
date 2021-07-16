@@ -1,0 +1,52 @@
+{
+    "achievements" : [
+        {
+            "class" : 10,
+            "date" : "12.06.2019",
+            "name" : "Lev Lavrov",
+            "winner" : "Yes",
+            "image" : "https://static1-repo.aif.ru/1/62/1698071/c/548be52176145bad6210a1d555d271ae.JPG",
+            "id" : "id1234"
+        }, 
+        {
+            "class" : 11,
+            "date" : "12.06.2019",
+            "name" : "Oleg Newolin",
+            "winner" : "Yes",
+            "image" : "https://static1-repo.aif.ru/1/62/1698071/c/548be52176145bad6210a1d555d271ae.JPG",
+            "id" : "id15123"
+        },
+        {
+            "class" : 10,
+            "date" : "01.02.2020",
+            "name" : "Rinat Ivanov",
+            "winner" : "Yes",
+            "image" : "http://ieyi.ru/wp-content/uploads/2019/08/DSC04467-1200x797.jpg",
+            "id" : "id12415"
+        },
+        {
+            "class" : 11,
+            "date" : "21.01.2021",
+            "name" : "Pavel Artemov",
+            "winner" : "Yes",
+            "image" : "https://static1-repo.aif.ru/1/62/1698071/c/548be52176145bad6210a1d555d271ae.JPG",
+            "id" : "id72672"
+        },
+        {
+            "class" : 10,
+            "date" : "01.11.2019",
+            "name" : "Anastasia Shipigusova",
+            "winner" : "Yes",
+            "image" : "http://ieyi.ru/wp-content/uploads/2019/08/DSC04467-1200x797.jpg",
+            "id" : "id72542"
+        },
+        {
+            "class" : 9,
+            "date" : "11.07.2018",
+            "name" : "Irina Maslennikove",
+            "winner" : "Yes",
+            "image" : "http://ieyi.ru/wp-content/uploads/2019/08/IMG_0412-1200x800.jpg",
+            "id" : "id63434"
+        }
+    ]
+}
